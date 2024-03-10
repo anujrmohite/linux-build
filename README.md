@@ -1,6 +1,6 @@
 # AGL (Automotive Grade Linux) Based Infotainment System
 
-## Mid Semester Presentation
+## Project Presentation
 
 **By**
 Anuj Mohite 142103002
@@ -30,7 +30,7 @@ The Yocto Project is an open-source collaboration project aimed at developers of
 - **Poky:** Reference build host.
 - **Build Appliance:** For building and booting custom embedded Linux images.
 
-![Architecture](./arch/image.png)
+![Architecture](arch/image.png)
 
 ## 2. Objectives
 
@@ -47,19 +47,27 @@ The Yocto Project is an open-source collaboration project aimed at developers of
 
 Define build properties such as target architecture and source storage.
 
+![Architecture](arch/config.png)
+
 #### 2. Metadata, Machine Configuration, and Policy Configuration
 
 - **Metadata (.bb + Patches):** Software layers with recipe files and patches.
 - **Machine BSP Configuration:** Board Support Package layers for machine-specific configurations.
 - **Policy Configuration:** Distribution layers providing general policies for images and SDKs.
 
+![Architecture](arch/meta-data.png)
+
 #### 3. Sources
 
 Access source files through upstream project releases, local projects, and SCMs.
 
+![Architecture](arch/sources.png)
+
 #### 4. Package Feeds
 
 Packages are sourced from a package feed area in the build directory.
+
+![Architecture](arch/feeds.png)
 
 ## 4. Experimental Setup
 
@@ -69,6 +77,8 @@ Packages are sourced from a package feed area in the build directory.
 
 **Supported Linux Distributions:**
 - Ubuntu, Fedora, openSUSE, CentOS, Debian.
+
+![Architecture](arch/setup.png)
 
 **Requirements:**
 - Git 1.8.3.1 or greater
@@ -86,6 +96,8 @@ Packages are sourced from a package feed area in the build directory.
 - Power Supply (5V DC)
 - LCD Display (SPI 420x320 Serial Monitor)
 
+![Architecture](arch/method.png)
+
 ### Yocto Project Highlights
 
 - Provides recent Linux kernels and system components.
@@ -93,7 +105,7 @@ Packages are sourced from a package feed area in the build directory.
 - Layer mechanism for system extension and customization.
 - Sato reference User Interface for devices with restricted screen sizes.
 
-## 7. Summary and Future Steps
+## 6. Summary and Future Steps
 
 ### Summary
 
