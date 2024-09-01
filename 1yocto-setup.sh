@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Adding Support for Jenkins"
 log_file="yocto_setup.log"
 
 # Function to log messages
