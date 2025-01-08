@@ -41,6 +41,8 @@ The Yocto Project is an open-source collaboration project aimed at developers of
 
 ## 3. Generalized Implementation of AGL Based on Yocto - Poky Distribution
 
+![OeLinux](arch/oelinux.png)
+
 ### Yocto Project Development Environment
 
 ![Architecture](arch/method.png)
