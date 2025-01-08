@@ -43,6 +43,8 @@ The Yocto Project is an open-source collaboration project aimed at developers of
 
 ### Yocto Project Development Environment
 
+![Architecture](arch/method.png)
+
 #### 1. User Configurations
 
 Define build properties such as target architecture and source storage.
@@ -95,8 +97,6 @@ Packages are sourced from a package feed area in the build directory.
 - I/O Devices: Keyboard, Mouse
 - Power Supply (5V DC)
 - LCD Display (SPI 420x320 Serial Monitor)
-
-![Architecture](arch/method.png)
 
 ### Yocto Project Highlights
 
