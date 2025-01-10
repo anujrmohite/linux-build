@@ -41,13 +41,13 @@ The Yocto Project is an open-source collaboration project aimed at developers of
 
 ![OeLinux](arch/oelinux.png)
 
-### Overview
-
-![overview](arch/overview.png)
-
 ### Yocto Project Development Environment
 
 ![Architecture](arch/method.png)
+
+### Overview
+
+![overview](arch/overview.png)
 
 #### 1. User Configurations
 
