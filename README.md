@@ -1,7 +1,5 @@
 # AGL (Automotive Grade Linux) Based Infotainment System
 
-## Project Presentation
-
 **By**
 Anuj Mohite 142103002
 Under the Supervision of Prof. Suraj Sawant (COEP Tech)
